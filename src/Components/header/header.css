@@ -15,6 +15,7 @@
 height: 25px;
 object-fit: contain;
 margin-left: 1.2rem;
+cursor: pointer;
 }
 .header-input {
     border: solid 1px lightgray;

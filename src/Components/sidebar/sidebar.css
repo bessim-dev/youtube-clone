@@ -1,0 +1,30 @@
+.sidebar{
+    flex:0.2;
+}
+.sidebarRow{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.sidebarRow:hover{
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+}
+
+.selected > .sidebarIcon{
+    color: red;
+}
+.selected > .sidebartitle{
+    font-weight: bolder;
+}
+.sidebarIcon{
+    color: #606060 ;
+    font-size: large !important;
+}
+.sidebartitle{
+    margin-left: 20px;
+    flex: 1;
+    font-size: 14px;
+    font-weight: 500;
+}

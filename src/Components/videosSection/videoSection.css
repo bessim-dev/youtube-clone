@@ -1,3 +1,35 @@
 .videoSection{
-    flex: 0.8;
+    width: 80%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.videoCard{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.videoCardThumnail__container{
+    width: 246px;
+    margin-right: 1rem;
+}
+.videoCard__thumbnail{
+    max-width: 100%;
+    height: auto;
+}
+.title{
+font-size: 18px;
+color: #030303;
+}
+.channel{
+    font-size: 13px;
+    color: #606060;
+}
+.description{
+    height: 42px;
+    overflow: hidden;
+}
+.videoCard__info{
+    margin-left: 1rem ;
 }

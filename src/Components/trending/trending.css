@@ -1,0 +1,9 @@
+.trending{
+    width: 80%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+
+}

@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-const SidebarRow = ({selected, title,Icon}) => {
-    return(
-        <div className={`sidebarRow ${selected && 'selected'}`}>
-            <Icon className={`sidebarIcon`}/>
-            <h2 className='sidebartitle'>{title}</h2>
-        </div>
-    )
-}
-export default SidebarRow
+const SidebarRow = ({ selected, title, Icon, link }) => {
+  return (
+    <Link to={link} className={`sidebarRow ${selected && "selected"}`}>
+        <Icon className="sidebarIcon" />
+        <h2 className="sidebartitle">{title}</h2>
+    </Link>
+  );
+};
+export default SidebarRow;

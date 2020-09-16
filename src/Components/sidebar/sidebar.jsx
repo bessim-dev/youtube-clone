@@ -5,16 +5,16 @@ import { Home,ExpandMore, History, OndemandVideo, Subscriptions, ThumbUp, VideoL
 const Sidebar = () =>  {
     return (
         <div className='sidebar'>
-            <SidebarRow selected Icon={Home} title='Home'/>
-            <SidebarRow Icon={Whatshot} title='Trending'/>
-            <SidebarRow Icon={Subscriptions} title='Subscription'/>
+            <SidebarRow selected Icon={Home} title='Home' link=''/>
+            <SidebarRow Icon={Whatshot} title='Trending' link='trending'/>
+            <SidebarRow Icon={Subscriptions} title='Subscription' link='subscription'/>
             <hr/>
-            <SidebarRow Icon={VideoLibrary} title='Library'/>
-            <SidebarRow Icon={History} title='History'/>
-            <SidebarRow Icon={OndemandVideo} title='Your videos'/>
-            <SidebarRow Icon={WatchLater} title='Watch later'/>
-            <SidebarRow Icon={ThumbUp}title='Liked videos'/>
-            <SidebarRow Icon={ExpandMore} title='Show more'/>
+            <SidebarRow Icon={VideoLibrary} title='Library' link='library'/>
+            <SidebarRow Icon={History} title='History' link='history'/>
+            <SidebarRow Icon={OndemandVideo} title='Your videos' link='yourVideos'/>
+            <SidebarRow Icon={WatchLater} title='Watch later' link='watchLater'/>
+            <SidebarRow Icon={ThumbUp}title='Liked videos' link='likedVideos'/>
+            <SidebarRow Icon={ExpandMore} title='Show more' link='showMore'/>
             <hr/>
         </div>
     )

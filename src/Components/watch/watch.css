@@ -1,0 +1,39 @@
+.video{
+    width: 727px;
+    height: 409px;
+    margin: 1rem 3rem 1rem 3rem;
+}
+.VideoDescription{
+    display: flex;
+    margin-left: 3rem;
+    color: #909090;
+    justify-content: space-between;
+    align-items: center;
+}
+.VideoTitle{
+    margin-left: 3rem;
+}
+.likes{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+.dislikes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.save{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

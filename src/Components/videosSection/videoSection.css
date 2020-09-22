@@ -9,27 +9,33 @@
 .videoCard{
     display: flex;
     margin-bottom: 1rem;
-}
-.videoCardThumnail__container{
-    width: 246px;
-    margin-right: 1rem;
+    
 }
 .videoCard__thumbnail{
-    max-width: 100%;
-    height: auto;
+    width: 246px;
+    height: 138px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.videoCard__info{
+    color: #606060;
+    display: flex;
+    font-size: 13px;
+}
+.views{
+    margin-left: .7rem;
 }
 .title{
 font-size: 18px;
-color: #030303;
-}
-.channel{
-    font-size: 13px;
-    color: #606060;
+color:#1B1813;
 }
 .description{
-    height: 42px;
+    margin-top: 0.4rem;
+    width: 550px;
     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display:block;
+    color: #606060;
 }
-.videoCard__info{
-    margin-left: 1rem ;
-}
+

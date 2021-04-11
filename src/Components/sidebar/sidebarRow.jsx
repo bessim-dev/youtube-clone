@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const SidebarRow = ({ selected, title, Icon, link }) => {
   return (
-    <Link to={link} className={`sidebarRow ${selected && "selected"}`}>
-        <Icon className="sidebarIcon" />
-        <h2 className="sidebartitle">{title}</h2>
-    </Link>
+    <NavLink to={link} exact={true} className="sidebarRow" activeClassName="selected">
+      <Icon className="sidebarIcon" />
+      <h2 className="sidebartitle">{title}</h2>
+    </NavLink>
   );
 };
 export default SidebarRow;

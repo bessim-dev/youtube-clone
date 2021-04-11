@@ -1,33 +1,31 @@
-.sidebar{
-    width: 20%;
-    float: left;
+.sidebar {
+  width: 20%;
 }
-.sidebarRow{
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #030303;
-    
+.sidebarRow {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #030303;
 }
-.sidebarRow:hover{
-    cursor: pointer;
-    background-color: rgb(241, 241, 241);
+.sidebarRow:hover {
+  cursor: pointer;
+  background-color: rgb(241, 241, 241);
 }
 
-.selected > .sidebarIcon{
-    color: red;
+.selected > .sidebarIcon {
+  color: red;
 }
-.selected > .sidebartitle{
-    font-weight: bolder;
+.selected > .sidebartitle {
+  font-weight: bolder;
 }
-.sidebarIcon{
-    color: #606060 ;
-    font-size: large !important;
+.sidebarIcon {
+  color: #606060;
+  font-size: large !important;
 }
-.sidebartitle{
-    margin-left: 20px;
-    flex: 1;
-    font-size: 14px;
-    font-weight: 500;
+.sidebartitle {
+  margin-left: 20px;
+  flex: 1;
+  font-size: 14px;
+  font-weight: 500;
 }

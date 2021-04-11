@@ -1,0 +1,47 @@
+.videoContainer {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 250px;
+}
+.videoContainer_H {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 246px;
+  height: 138px;
+  object-fit: cover;
+  margin-bottom: 0.5em;
+}
+.videoFooter_H {
+  margin-left: 1em;
+}
+.videoTitle {
+  font-size: 16px;
+  color: #1b1813;
+  font-weight: bold;
+  padding: 0.1em;
+}
+.channelName {
+  color: #606060;
+  display: flex;
+  font-size: 14px;
+  margin-top: 6px;
+  align-items: center;
+}
+.views {
+  color: #606060;
+  font-size: 14px;
+}
+.description {
+  margin-top: 0.4rem;
+  width: 550px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  color: #606060;
+}

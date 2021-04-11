@@ -1,62 +1,62 @@
-.header{
-    height: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:2rem;
-    position: sticky;
-    top:0;
-    z-index: 100;
-    background-color:#FFFFFF;
+.header {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #ffffff;
 }
-.header-right{
-    width: 10%;
-    display: flex;
+.header-right {
+  width: 10%;
+  display: flex;
 }
-.header img{
-height: 25px;
-object-fit: contain;
-margin-left: 1.2rem;
-cursor: pointer;
+.header img {
+  height: 25px;
+  object-fit: contain;
+  margin-left: 1.2rem;
+  cursor: pointer;
 }
 .header-input {
-    border: solid 1px lightgray;
-    display: flex;
-    align-items: center;
-    width: 50%;
+  border: solid 1px lightgray;
+  display: flex;
+  align-items: center;
+  width: 50%;
 }
 .header-input > input {
-    flex:1;
-    border: none;
-    padding: 1px 12px;
-    margin: 0 0 0 0 4px;
-    outline: none;
-    font-size: 16px;
-    font-weight: 400;
+  flex: 1;
+  border: none;
+  padding: 1px 12px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: transparent;
 }
-.header-input-button{
-    background-color: #F8F8F8;
-    border: none;
-    border-left:solid 1px lightgray;
+.header-input-button {
+  background-color: #f8f8f8;
+  border: none;
+  border-left: solid 1px lightgray;
+  outline: none;
 }
-.search-icon{
-    cursor: pointer;
-    font: 13.33;
-    width:65px !important;
-    
-    border-radius:0 2px 2px 0;
-    padding:1px 6px;
-    margin: 0;
-    color: gray;
+.search-icon {
+  cursor: pointer;
+  font: 13.33;
+  width: 65px !important;
+
+  border-radius: 0 2px 2px 0;
+  padding: 1px 6px;
+  margin: 0;
+  color: gray;
 }
 .header-left {
-    display:flex;
-    width: 20%;
-    margin: 0;
-    align-items: center;
-    justify-content: space-evenly;
-    
+  display: flex;
+  width: 20%;
+  margin: 0;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.right-icons{
-    color: #606060;
+.right-icons {
+  color: #606060;
 }

@@ -1,0 +1,45 @@
+.watchPageContainer {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-evenly;
+}
+.videoFrameContainer {
+  margin: 1em;
+}
+.trendingVideosContainer {
+  margin: 1em;
+}
+.video {
+  width: 727px;
+  height: 409px;
+  margin-bottom: 1em;
+}
+.VideoDescription {
+  display: flex;
+  color: #909090;
+  justify-content: space-between;
+  align-items: center;
+}
+.VideoTitle {
+  font-size: 18px;
+}
+.likes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dislikes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.save {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
